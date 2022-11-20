@@ -46,7 +46,7 @@ namespace MyProject.WebAPI
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyProject.WebAPI", Version = "v1" });
-            });
+            })
 
             services.AddAutoMapper(typeof(Mapping));
 
