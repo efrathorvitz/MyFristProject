@@ -42,7 +42,6 @@ namespace MyProject.WebAPI
                                       policy.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
                                   });
             });
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
